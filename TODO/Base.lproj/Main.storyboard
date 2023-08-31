@@ -217,15 +217,31 @@
                                     <action selector="didTapDeleteButton:" destination="BHT-VV-Pjx" eventType="touchUpInside" id="UvC-Zh-neo"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Evh-CF-X8u">
+                                <rect key="frame" x="24" y="257" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TS-pS-qLt">
+                                <rect key="frame" x="127" y="257" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2yq-Dc-FDw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="TUn-yw-wwI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="N9X-if-aOK" secondAttribute="trailing" constant="8" symbolic="YES" id="1fB-TR-dOX"/>
+                            <constraint firstItem="7TS-pS-qLt" firstAttribute="top" secondItem="TUn-yw-wwI" secondAttribute="bottom" constant="20" id="8s5-7d-VT6"/>
+                            <constraint firstItem="7TS-pS-qLt" firstAttribute="leading" secondItem="Evh-CF-X8u" secondAttribute="trailing" constant="28" id="BeG-vn-ynB"/>
+                            <constraint firstItem="Evh-CF-X8u" firstAttribute="top" secondItem="N9X-if-aOK" secondAttribute="bottom" constant="20" id="EKB-lT-BP2"/>
                             <constraint firstItem="2yq-Dc-FDw" firstAttribute="trailing" secondItem="TUn-yw-wwI" secondAttribute="trailing" constant="68" id="eER-pI-5S5"/>
                             <constraint firstItem="TUn-yw-wwI" firstAttribute="baseline" secondItem="N9X-if-aOK" secondAttribute="baseline" id="fdu-xV-0Mp"/>
                             <constraint firstItem="N9X-if-aOK" firstAttribute="top" secondItem="2yq-Dc-FDw" secondAttribute="top" constant="113" id="iaB-0p-EaM"/>
                             <constraint firstItem="N9X-if-aOK" firstAttribute="leading" secondItem="2yq-Dc-FDw" secondAttribute="leading" constant="48" id="qNA-QA-C9t"/>
+                            <constraint firstItem="Evh-CF-X8u" firstAttribute="leading" secondItem="Q3T-xe-VB1" secondAttribute="leadingMargin" constant="8" id="sX5-pf-MDl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ct9-24-h7e">
@@ -236,6 +252,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="taskMenu" destination="7TS-pS-qLt" id="qTS-5m-bn0"/>
                         <outlet property="taskTitle" destination="TUn-yw-wwI" id="VWL-is-Bc6"/>
                     </connections>
                 </viewController>
