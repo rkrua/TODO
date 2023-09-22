@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554BA0DB2ABD531300BFBDC5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554BA0DA2ABD531300BFBDC5 /* ProfileViewController.swift */; };
 		557A4D0F2A9C693C00F217E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D0E2A9C693C00F217E4 /* AppDelegate.swift */; };
 		557A4D112A9C693C00F217E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D102A9C693C00F217E4 /* SceneDelegate.swift */; };
 		557A4D132A9C693C00F217E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D122A9C693C00F217E4 /* ViewController.swift */; };
@@ -22,9 +23,12 @@
 		557A4D332A9C6AD100F217E4 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D322A9C6AD100F217E4 /* TodoListViewController.swift */; };
 		557A4D352A9C6AE000F217E4 /* TodoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D342A9C6AE000F217E4 /* TodoDetailViewController.swift */; };
 		557A4D372A9C6AF000F217E4 /* TodoCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D362A9C6AF000F217E4 /* TodoCompleteViewController.swift */; };
+		557A4D392AA0606600F217E4 /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D382AA0606600F217E4 /* PetViewController.swift */; };
+		557A4D3D2AA06AF000F217E4 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A4D3C2AA06AF000F217E4 /* Pet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		554BA0DA2ABD531300BFBDC5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		557A4D0B2A9C693C00F217E4 /* TODO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		557A4D0E2A9C693C00F217E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		557A4D102A9C693C00F217E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		557A4D322A9C6AD100F217E4 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		557A4D342A9C6AE000F217E4 /* TodoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailViewController.swift; sourceTree = "<group>"; };
 		557A4D362A9C6AF000F217E4 /* TodoCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCompleteViewController.swift; sourceTree = "<group>"; };
+		557A4D382AA0606600F217E4 /* PetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
+		557A4D3C2AA06AF000F217E4 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 				557A4D322A9C6AD100F217E4 /* TodoListViewController.swift */,
 				557A4D342A9C6AE000F217E4 /* TodoDetailViewController.swift */,
 				557A4D362A9C6AF000F217E4 /* TodoCompleteViewController.swift */,
+				557A4D382AA0606600F217E4 /* PetViewController.swift */,
+				554BA0DA2ABD531300BFBDC5 /* ProfileViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			children = (
 				557A4D262A9C6A0C00F217E4 /* Task.swift */,
 				557A4D282A9C6A1600F217E4 /* TaskList.swift */,
+				557A4D3C2AA06AF000F217E4 /* Pet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,9 +213,12 @@
 				557A4D292A9C6A1600F217E4 /* TaskList.swift in Sources */,
 				557A4D352A9C6AE000F217E4 /* TodoDetailViewController.swift in Sources */,
 				557A4D332A9C6AD100F217E4 /* TodoListViewController.swift in Sources */,
+				557A4D3D2AA06AF000F217E4 /* Pet.swift in Sources */,
 				557A4D132A9C693C00F217E4 /* ViewController.swift in Sources */,
+				557A4D392AA0606600F217E4 /* PetViewController.swift in Sources */,
 				557A4D0F2A9C693C00F217E4 /* AppDelegate.swift in Sources */,
 				557A4D112A9C693C00F217E4 /* SceneDelegate.swift in Sources */,
+				554BA0DB2ABD531300BFBDC5 /* ProfileViewController.swift in Sources */,
 				557A4D2D2A9C6A6200F217E4 /* TodoCompleteTableViewCell.swift in Sources */,
 				557A4D2B2A9C6A5600F217E4 /* TodoListTableViewCell.swift in Sources */,
 			);
